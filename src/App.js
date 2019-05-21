@@ -6,86 +6,86 @@ const octocats = [
   {
     image: 'https://octodex.github.com/images/octobiwan.jpg',
     number: 3,
-    name: 'the Octobi Wan Catnobi by',
+    name: 'Octobi Wan Catnobi',
     author: 'https://github.com/cameronmcefee.png'
   },
   {
     image: 'https://octodex.github.com/images/stormtroopocat.jpg',
     number: 86,
-    name: 'the Stormtroopocat by',
+    name: 'Stormtroopocat',
     author: 'https://github.com/jeejkang.png'
   },
   {
     image: 'https://octodex.github.com/images/doctocat-brown.jpg',
     number: 68,
-    name: 'the Doctocat Brown by',
+    name: 'Doctocat Brown',
     author: 'https://github.com/jonrohan.png'
   },
   {
     image: 'https://octodex.github.com/images/de-los-muertos.jpg',
     number: 56,
-    name: 'the Octocat De Los Muertos by',
+    name: 'Octocat De Los Muertos',
     author: 'https://github.com/cameronmcefee.png'
   },
   {
     image: 'https://octodex.github.com/images/dunetocat.jpg',
     number: 105,
-    name: 'the Dunetocat by',
+    name: 'Dunetocat',
     author: 'https://github.com/JohnCreek.png'
   },
   {
     image: 'https://octodex.github.com/images/daftpunktocat-thomas.jpg',
     number: 102,
-    name: 'the Daftpunktocat-Thomas by',
+    name: 'Daftpunktocat-Thomas',
     author: 'https://github.com/jeejkang.png'
   },
   {
     image: 'https://octodex.github.com/images/heisencat.jpg',
     number: 78,
-    name: 'the Heisencat by',
+    name: 'Heisencat',
     author: 'https://github.com/jonrohan.png'
   },
   {
     image: 'https://octodex.github.com/images/boxertocat_octodex.jpg',
     number: 143,
-    name: 'the Boxertocat by',
+    name: 'Boxertocat',
     author: 'https://github.com/rubyjazzy.png'
   },
   {
     image: 'https://octodex.github.com/images/justicetocat.jpg',
     number: 136,
-    name: 'the Justicetocat by',
+    name: 'Justicetocat',
     author: 'https://github.com/heyhayhay.png'
   },
   {
     image: 'https://octodex.github.com/images/gobbleotron.jpg',
     number: 120,
-    name: 'the Gobble-o-tron by',
+    name: 'Gobble-o-tron',
     author: 'https://github.com/JohnCreek.png',
     author2: 'https://github.com/tonyjaramillo.png'
   },
   {
     image: 'https://octodex.github.com/images/xtocat.jpg',
     number: 36,
-    name: 'the X-tocat by',
+    name: 'X-tocat',
     author: 'https://github.com/cameronmcefee.png'
   },
   {
     image: 'https://octodex.github.com/images/saritocat.jpg',
     number: 114,
-    name: 'the Saritocat by',
+    name: 'Saritocat',
     author: 'https://github.com/JohnCreek.png'
   },
   {
     image: 'https://octodex.github.com/images/yaktocat.jpg',
     number: 109,
-    name: 'the Yaktocat by',
+    name: 'Yaktocat',
     author: 'https://github.com/JohnCreek.png'
   },
   {
     image: 'https://octodex.github.com/images/murakamicat.jpg',
     number: 83,
-    name: 'the Murakamicat by',
+    name: 'Murakamicat',
     author: 'https://github.com/billyroh.png'
   }
 ]
@@ -105,18 +105,17 @@ class App extends Component {
 
         <div class="container">
           <section class="main-body">
-            <Octocat />
+            {octocats.map(octocat => {
+              return (
+                <Octocat
+                  image={octocat.image}
+                  number={octocat.number}
+                  name={octocat.name}
+                  author={octocat.author}
+                />
+              )
+            })}
           </section>
-          {octocats.map(octocat => {
-            return (
-              <Octocat
-                image={octocat.image}
-                number={octocat.number}
-                name={octocat.name}
-                author={octocat.author}
-              />
-            )
-          })}
 
           <footer>
             <div class="bottom-links">
