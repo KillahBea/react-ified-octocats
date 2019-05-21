@@ -22,25 +22,25 @@ const octocats = [
     author: 'https://github.com/jonrohan.png'
   },
   {
-    image: 'https://octodex.github.com/images/de-los-muertos.jpg',
+    image: 'https://octodex.github.com/images/octocat-de-los-muertos.jpg',
     number: 56,
     name: 'Octocat De Los Muertos',
     author: 'https://github.com/cameronmcefee.png'
   },
   {
-    image: 'https://octodex.github.com/images/dunetocat.jpg',
+    image: 'https://octodex.github.com/images/dunetocat.png',
     number: 105,
     name: 'Dunetocat',
     author: 'https://github.com/JohnCreek.png'
   },
   {
-    image: 'https://octodex.github.com/images/daftpunktocat-thomas.jpg',
+    image: 'https://octodex.github.com/images/daftpunktocat-thomas.gif',
     number: 102,
     name: 'Daftpunktocat-Thomas',
     author: 'https://github.com/jeejkang.png'
   },
   {
-    image: 'https://octodex.github.com/images/heisencat.jpg',
+    image: 'https://octodex.github.com/images/heisencat.png',
     number: 78,
     name: 'Heisencat',
     author: 'https://github.com/jonrohan.png'
@@ -58,7 +58,7 @@ const octocats = [
     author: 'https://github.com/heyhayhay.png'
   },
   {
-    image: 'https://octodex.github.com/images/gobbleotron.jpg',
+    image: 'https://octodex.github.com/images/gobbleotron.gif',
     number: 120,
     name: 'Gobble-o-tron',
     author: 'https://github.com/JohnCreek.png',
@@ -71,19 +71,25 @@ const octocats = [
     author: 'https://github.com/cameronmcefee.png'
   },
   {
-    image: 'https://octodex.github.com/images/saritocat.jpg',
+    image: 'https://octodex.github.com/images/saritocat.png',
     number: 114,
     name: 'Saritocat',
     author: 'https://github.com/JohnCreek.png'
   },
   {
-    image: 'https://octodex.github.com/images/yaktocat.jpg',
+    image: 'https://octodex.github.com/images/yaktocat.png',
     number: 109,
     name: 'Yaktocat',
     author: 'https://github.com/JohnCreek.png'
   },
   {
-    image: 'https://octodex.github.com/images/murakamicat.jpg',
+    image: 'https://octodex.github.com/images/dunetocat.png',
+    number: 105,
+    name: 'Dunetocat',
+    author: 'https://github.com/JohnCreek.png'
+  },
+  {
+    image: 'https://octodex.github.com/images/murakamicat.png',
     number: 83,
     name: 'Murakamicat',
     author: 'https://github.com/billyroh.png'
